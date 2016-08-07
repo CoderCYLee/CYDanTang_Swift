@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E70E41AD1D545DCF00BE1F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E41AC1D545DCF00BE1F46 /* AppDelegate.swift */; };
 		E70E41AF1D545DCF00BE1F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E41AE1D545DCF00BE1F46 /* ViewController.swift */; };
-		E70E41B21D545DCF00BE1F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70E41B01D545DCF00BE1F46 /* Main.storyboard */; };
 		E70E41B41D545DCF00BE1F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70E41B31D545DCF00BE1F46 /* Assets.xcassets */; };
 		E70E41B71D545DCF00BE1F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70E41B51D545DCF00BE1F46 /* LaunchScreen.storyboard */; };
 		E70E41C21D545DCF00BE1F46 /* CYDanTangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E41C11D545DCF00BE1F46 /* CYDanTangTests.swift */; };
@@ -37,7 +36,6 @@
 		E70E41A91D545DCF00BE1F46 /* CYDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70E41AC1D545DCF00BE1F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E70E41AE1D545DCF00BE1F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E70E41B11D545DCF00BE1F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E70E41B31D545DCF00BE1F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E70E41B61D545DCF00BE1F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E70E41B81D545DCF00BE1F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				E70E41AC1D545DCF00BE1F46 /* AppDelegate.swift */,
 				E70E41AE1D545DCF00BE1F46 /* ViewController.swift */,
-				E70E41B01D545DCF00BE1F46 /* Main.storyboard */,
 				E70E41B31D545DCF00BE1F46 /* Assets.xcassets */,
 				E70E41B51D545DCF00BE1F46 /* LaunchScreen.storyboard */,
 				E70E41B81D545DCF00BE1F46 /* Info.plist */,
@@ -231,7 +228,6 @@
 			files = (
 				E70E41B71D545DCF00BE1F46 /* LaunchScreen.storyboard in Resources */,
 				E70E41B41D545DCF00BE1F46 /* Assets.xcassets in Resources */,
-				E70E41B21D545DCF00BE1F46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E70E41B01D545DCF00BE1F46 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E70E41B11D545DCF00BE1F46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E70E41B51D545DCF00BE1F46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +470,7 @@
 				E70E41D31D545DCF00BE1F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E70E41D41D545DCF00BE1F46 /* Build configuration list for PBXNativeTarget "CYDanTangTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +479,7 @@
 				E70E41D61D545DCF00BE1F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E70E41D71D545DCF00BE1F46 /* Build configuration list for PBXNativeTarget "CYDanTangUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +488,7 @@
 				E70E41D91D545DCF00BE1F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
