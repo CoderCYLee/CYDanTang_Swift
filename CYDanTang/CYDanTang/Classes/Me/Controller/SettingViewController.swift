@@ -1,18 +1,21 @@
 //
-//  ViewController.swift
+//  SettingViewController.swift
 //  CYDanTang
 //
-//  Created by Cyrill on 16/8/5.
+//  Created by Cyrill on 16/8/22.
 //  Copyright © 2016年 Cyrill. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SettingViewController: BaseViewController {
 
+    var setting = [AnyObject]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +23,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-

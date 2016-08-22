@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		77B4EA79DA66AEDB30F23C1F /* Pods_CYDanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8C9358E3C835B0F08196BE /* Pods_CYDanTang.framework */; };
-		E70E41AD1D545DCF00BE1F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E41AC1D545DCF00BE1F46 /* AppDelegate.swift */; };
-		E70E41AF1D545DCF00BE1F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E41AE1D545DCF00BE1F46 /* ViewController.swift */; };
 		E70E41B41D545DCF00BE1F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70E41B31D545DCF00BE1F46 /* Assets.xcassets */; };
-		E70E41B71D545DCF00BE1F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70E41B51D545DCF00BE1F46 /* LaunchScreen.storyboard */; };
 		E70E41C21D545DCF00BE1F46 /* CYDanTangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E41C11D545DCF00BE1F46 /* CYDanTangTests.swift */; };
 		E70E41CD1D545DCF00BE1F46 /* CYDanTangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E41CC1D545DCF00BE1F46 /* CYDanTangUITests.swift */; };
+		E74F79C31D6AFBCE00444A7C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F79C21D6AFBCE00444A7C /* TabBarViewController.swift */; };
+		E74F79C51D6AFDB500444A7C /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F79C41D6AFDB500444A7C /* NavigationViewController.swift */; };
+		E74F79C71D6AFE2900444A7C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F79C61D6AFE2900444A7C /* BaseViewController.swift */; };
+		E74F79C91D6B086B00444A7C /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F79C81D6B086B00444A7C /* MeViewController.swift */; };
+		E74F79CB1D6B08A500444A7C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74F79CA1D6B08A500444A7C /* SettingViewController.swift */; };
+		E7C679F71D5C818A002F5551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C679F11D5C818A002F5551 /* AppDelegate.swift */; };
+		E7C679F81D5C818A002F5551 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7C679F21D5C818A002F5551 /* Info.plist */; };
+		E7C679FC1D5C828F002F5551 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C679FB1D5C828F002F5551 /* Const.swift */; };
+		E7C67A021D5C8568002F5551 /* NewfeatureCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C67A011D5C8568002F5551 /* NewfeatureCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +44,22 @@
 		361F9E0C3018CABD1986F6E6 /* Pods-CYDanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYDanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-CYDanTang/Pods-CYDanTang.release.xcconfig"; sourceTree = "<group>"; };
 		3A8C9358E3C835B0F08196BE /* Pods_CYDanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYDanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70E41A91D545DCF00BE1F46 /* CYDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E70E41AC1D545DCF00BE1F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E70E41AE1D545DCF00BE1F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E70E41B31D545DCF00BE1F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E70E41B61D545DCF00BE1F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E70E41B81D545DCF00BE1F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E70E41BD1D545DCF00BE1F46 /* CYDanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYDanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70E41C11D545DCF00BE1F46 /* CYDanTangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYDanTangTests.swift; sourceTree = "<group>"; };
 		E70E41C31D545DCF00BE1F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E70E41C81D545DCF00BE1F46 /* CYDanTangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYDanTangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70E41CC1D545DCF00BE1F46 /* CYDanTangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYDanTangUITests.swift; sourceTree = "<group>"; };
 		E70E41CE1D545DCF00BE1F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74F79C21D6AFBCE00444A7C /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E74F79C41D6AFDB500444A7C /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		E74F79C61D6AFE2900444A7C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E74F79C81D6B086B00444A7C /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		E74F79CA1D6B08A500444A7C /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E7C679F11D5C818A002F5551 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7C679F21D5C818A002F5551 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C679FB1D5C828F002F5551 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		E7C67A011D5C8568002F5551 /* NewfeatureCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewfeatureCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +130,8 @@
 		E70E41AB1D545DCF00BE1F46 /* CYDanTang */ = {
 			isa = PBXGroup;
 			children = (
-				E70E41AC1D545DCF00BE1F46 /* AppDelegate.swift */,
-				E70E41AE1D545DCF00BE1F46 /* ViewController.swift */,
+				E7C679DB1D5C818A002F5551 /* Classes */,
 				E70E41B31D545DCF00BE1F46 /* Assets.xcassets */,
-				E70E41B51D545DCF00BE1F46 /* LaunchScreen.storyboard */,
-				E70E41B81D545DCF00BE1F46 /* Info.plist */,
 			);
 			path = CYDanTang;
 			sourceTree = "<group>";
@@ -144,6 +152,238 @@
 				E70E41CE1D545DCF00BE1F46 /* Info.plist */,
 			);
 			path = CYDanTangUITests;
+			sourceTree = "<group>";
+		};
+		E7C679DB1D5C818A002F5551 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679DC1D5C818A002F5551 /* Classify */,
+				E7C679E01D5C818A002F5551 /* DanTang */,
+				E7C679E41D5C818A002F5551 /* Login&Register */,
+				E7C679E81D5C818A002F5551 /* Main */,
+				E7C679EC1D5C818A002F5551 /* Me */,
+				E7C679F01D5C818A002F5551 /* Other */,
+				E7C679F31D5C818A002F5551 /* Product */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7C679DC1D5C818A002F5551 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679DD1D5C818A002F5551 /* Controller */,
+				E7C679DE1D5C818A002F5551 /* Model */,
+				E7C679DF1D5C818A002F5551 /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		E7C679DD1D5C818A002F5551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7C679DE1D5C818A002F5551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7C679DF1D5C818A002F5551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C679E01D5C818A002F5551 /* DanTang */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679E11D5C818A002F5551 /* Controller */,
+				E7C679E21D5C818A002F5551 /* Model */,
+				E7C679E31D5C818A002F5551 /* View */,
+			);
+			path = DanTang;
+			sourceTree = "<group>";
+		};
+		E7C679E11D5C818A002F5551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7C679E21D5C818A002F5551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7C679E31D5C818A002F5551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C679E41D5C818A002F5551 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679E51D5C818A002F5551 /* Controller */,
+				E7C679E61D5C818A002F5551 /* Model */,
+				E7C679E71D5C818A002F5551 /* View */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		E7C679E51D5C818A002F5551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7C67A011D5C8568002F5551 /* NewfeatureCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7C679E61D5C818A002F5551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7C679E71D5C818A002F5551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C679E81D5C818A002F5551 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679F91D5C8270002F5551 /* Category */,
+				E7C679FA1D5C8270002F5551 /* Tool */,
+				E7C679E91D5C818A002F5551 /* Controller */,
+				E7C679EA1D5C818A002F5551 /* Model */,
+				E7C679EB1D5C818A002F5551 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E7C679E91D5C818A002F5551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E74F79C61D6AFE2900444A7C /* BaseViewController.swift */,
+				E74F79C41D6AFDB500444A7C /* NavigationViewController.swift */,
+				E74F79C21D6AFBCE00444A7C /* TabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7C679EA1D5C818A002F5551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7C679EB1D5C818A002F5551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C679EC1D5C818A002F5551 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679ED1D5C818A002F5551 /* Controller */,
+				E7C679EE1D5C818A002F5551 /* Model */,
+				E7C679EF1D5C818A002F5551 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		E7C679ED1D5C818A002F5551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E74F79C81D6B086B00444A7C /* MeViewController.swift */,
+				E74F79CA1D6B08A500444A7C /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7C679EE1D5C818A002F5551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7C679EF1D5C818A002F5551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C679F01D5C818A002F5551 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679F11D5C818A002F5551 /* AppDelegate.swift */,
+				E7C679F21D5C818A002F5551 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E7C679F31D5C818A002F5551 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679F41D5C818A002F5551 /* Controller */,
+				E7C679F51D5C818A002F5551 /* Model */,
+				E7C679F61D5C818A002F5551 /* View */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		E7C679F41D5C818A002F5551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7C679F51D5C818A002F5551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7C679F61D5C818A002F5551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7C679F91D5C8270002F5551 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E7C679FA1D5C8270002F5551 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E7C679FB1D5C828F002F5551 /* Const.swift */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,8 +493,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70E41B71D545DCF00BE1F46 /* LaunchScreen.storyboard in Resources */,
 				E70E41B41D545DCF00BE1F46 /* Assets.xcassets in Resources */,
+				E7C679F81D5C818A002F5551 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +567,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70E41AF1D545DCF00BE1F46 /* ViewController.swift in Sources */,
-				E70E41AD1D545DCF00BE1F46 /* AppDelegate.swift in Sources */,
+				E74F79C31D6AFBCE00444A7C /* TabBarViewController.swift in Sources */,
+				E74F79C91D6B086B00444A7C /* MeViewController.swift in Sources */,
+				E7C679F71D5C818A002F5551 /* AppDelegate.swift in Sources */,
+				E74F79CB1D6B08A500444A7C /* SettingViewController.swift in Sources */,
+				E7C679FC1D5C828F002F5551 /* Const.swift in Sources */,
+				E74F79C51D6AFDB500444A7C /* NavigationViewController.swift in Sources */,
+				E7C67A021D5C8568002F5551 /* NewfeatureCollectionViewController.swift in Sources */,
+				E74F79C71D6AFE2900444A7C /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,17 +608,6 @@
 			targetProxy = E70E41C91D545DCF00BE1F46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E70E41B51D545DCF00BE1F46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E70E41B61D545DCF00BE1F46 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E70E41CF1D545DCF00BE1F46 /* Debug */ = {
@@ -463,7 +698,9 @@
 			baseConfigurationReference = 0276E0A8DEBF60E04279AE8F /* Pods-CYDanTang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CYDanTang/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/CYDanTang/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.futurestar.CYDanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,7 +712,9 @@
 			baseConfigurationReference = 361F9E0C3018CABD1986F6E6 /* Pods-CYDanTang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CYDanTang/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "$(SRCROOT)/CYDanTang/Classes/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.futurestar.CYDanTang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
