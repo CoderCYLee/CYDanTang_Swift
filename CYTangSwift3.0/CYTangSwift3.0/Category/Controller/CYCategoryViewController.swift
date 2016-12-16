@@ -13,8 +13,7 @@ class CYCategoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.title = "分类"
+        
     }
 
     override func didReceiveMemoryWarning() {

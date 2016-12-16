@@ -5,6 +5,7 @@
 //  Created by Cyrill on 2016/12/13.
 //  Copyright © 2016年 Cyrill. All rights reserved.
 //
+//  首页
 
 import UIKit
 
@@ -12,8 +13,7 @@ class CYHomePageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.title = "单糖"
+        
     }
 
     override func didReceiveMemoryWarning() {
