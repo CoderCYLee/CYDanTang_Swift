@@ -43,7 +43,7 @@ class CYMeHeaderView: UIView {
         }
         
         iconButton.snp.makeConstraints { (make) in
-            make.centerX.equalTo(self.centerX)
+            make.centerX.equalTo(self.snp.centerX)
             make.size.equalTo(CGSize(width:75, height: 75))
             make.bottom.equalTo(nameLabel.snp.top).offset(-kMargin)
         }
