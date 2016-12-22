@@ -75,7 +75,7 @@ let kitemH: CGFloat = 75
 /// 分类界面 顶部 item 的宽
 let kitemW: CGFloat = 150
 /// 我的界面头部图像的高度
-let kYMMineHeaderImageHeight: CGFloat = 200
+let kCYMineHeaderImageHeight: CGFloat = 200
 // 分享按钮背景高度
 let kTopViewH: CGFloat = 230
 
