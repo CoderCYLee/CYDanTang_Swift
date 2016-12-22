@@ -46,8 +46,6 @@
 		E7215CDA1E03DC9F007E12A0 /* CYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */; };
 		E7C4C7361E0BB5D200ECBFFB /* CYMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C7351E0BB5D200ECBFFB /* CYMeFooterView.swift */; };
 		E7C4C7381E0BB5DD00ECBFFB /* CYMeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C7371E0BB5DD00ECBFFB /* CYMeHeaderView.swift */; };
-		E7C4C73B1E0BB5F400ECBFFB /* CYSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C7391E0BB5F400ECBFFB /* CYSettingCell.swift */; };
-		E7C4C73C1E0BB5F400ECBFFB /* CYSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7C4C73A1E0BB5F400ECBFFB /* CYSettingCell.xib */; };
 		E7C4C73E1E0BB88300ECBFFB /* CYSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C73D1E0BB88300ECBFFB /* CYSetting.swift */; };
 /* End PBXBuildFile section */
 
@@ -95,8 +93,6 @@
 		E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeViewController.swift; sourceTree = "<group>"; };
 		E7C4C7351E0BB5D200ECBFFB /* CYMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeFooterView.swift; sourceTree = "<group>"; };
 		E7C4C7371E0BB5DD00ECBFFB /* CYMeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeHeaderView.swift; sourceTree = "<group>"; };
-		E7C4C7391E0BB5F400ECBFFB /* CYSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSettingCell.swift; sourceTree = "<group>"; };
-		E7C4C73A1E0BB5F400ECBFFB /* CYSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYSettingCell.xib; sourceTree = "<group>"; };
 		E7C4C73D1E0BB88300ECBFFB /* CYSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSetting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -307,8 +303,6 @@
 			children = (
 				E7C4C7351E0BB5D200ECBFFB /* CYMeFooterView.swift */,
 				E7C4C7371E0BB5DD00ECBFFB /* CYMeHeaderView.swift */,
-				E7C4C7391E0BB5F400ECBFFB /* CYSettingCell.swift */,
-				E7C4C73A1E0BB5F400ECBFFB /* CYSettingCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,7 +439,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7215CD01E03DBDE007E12A0 /* CYProductCollectionViewCell.xib in Resources */,
-				E7C4C73C1E0BB5F400ECBFFB /* CYSettingCell.xib in Resources */,
 				E7215CD31E03DBDE007E12A0 /* CYProductDetailCollectionViewCell.xib in Resources */,
 				E7177A1C1DFEA82900437509 /* LaunchScreen.storyboard in Resources */,
 				E7215CCC1E03DBDE007E12A0 /* CYCommentTableViewCell.xib in Resources */,
@@ -535,7 +528,6 @@
 				E7215CD51E03DBDE007E12A0 /* CYProductDetailToolbar.swift in Sources */,
 				E7215CD21E03DBDE007E12A0 /* CYProductDetailCollectionViewCell.swift in Sources */,
 				E7215CC41E03DBDE007E12A0 /* AppDelegate.swift in Sources */,
-				E7C4C73B1E0BB5F400ECBFFB /* CYSettingCell.swift in Sources */,
 				E7C4C7361E0BB5D200ECBFFB /* CYMeFooterView.swift in Sources */,
 				E7215CC31E03DBDE007E12A0 /* NewfeatureCollectionViewController.swift in Sources */,
 				E7215CBF1E03DBDE007E12A0 /* CYTabBarViewController.swift in Sources */,
