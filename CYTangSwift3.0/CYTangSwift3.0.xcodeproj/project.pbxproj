@@ -44,6 +44,7 @@
 		E7215CD71E03DBDE007E12A0 /* CYProductDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7215CB61E03DBDE007E12A0 /* CYProductDetailTopView.swift */; };
 		E7215CD81E03DBDE007E12A0 /* CYShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7215CB71E03DBDE007E12A0 /* CYShareButtonView.swift */; };
 		E7215CDA1E03DC9F007E12A0 /* CYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */; };
+		E79AF6901E0BBD7C00DA13BE /* CYSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AF68F1E0BBD7C00DA13BE /* CYSettingViewController.swift */; };
 		E7C4C7361E0BB5D200ECBFFB /* CYMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C7351E0BB5D200ECBFFB /* CYMeFooterView.swift */; };
 		E7C4C7381E0BB5DD00ECBFFB /* CYMeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C7371E0BB5DD00ECBFFB /* CYMeHeaderView.swift */; };
 		E7C4C73E1E0BB88300ECBFFB /* CYSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C73D1E0BB88300ECBFFB /* CYSetting.swift */; };
@@ -91,6 +92,7 @@
 		E7215CB61E03DBDE007E12A0 /* CYProductDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYProductDetailTopView.swift; sourceTree = "<group>"; };
 		E7215CB71E03DBDE007E12A0 /* CYShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYShareButtonView.swift; sourceTree = "<group>"; };
 		E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeViewController.swift; sourceTree = "<group>"; };
+		E79AF68F1E0BBD7C00DA13BE /* CYSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSettingViewController.swift; sourceTree = "<group>"; };
 		E7C4C7351E0BB5D200ECBFFB /* CYMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeFooterView.swift; sourceTree = "<group>"; };
 		E7C4C7371E0BB5DD00ECBFFB /* CYMeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeHeaderView.swift; sourceTree = "<group>"; };
 		E7C4C73D1E0BB88300ECBFFB /* CYSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSetting.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */,
+				E79AF68F1E0BBD7C00DA13BE /* CYSettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -521,6 +524,7 @@
 				E7215CD81E03DBDE007E12A0 /* CYShareButtonView.swift in Sources */,
 				E7215CD41E03DBDE007E12A0 /* CYProductDetailScrollView.swift in Sources */,
 				E7215CBD1E03DBDE007E12A0 /* CYBaseViewController.swift in Sources */,
+				E79AF6901E0BBD7C00DA13BE /* CYSettingViewController.swift in Sources */,
 				E7215CBC1E03DBDE007E12A0 /* UIView+Extension.swift in Sources */,
 				E7215CC61E03DBDE007E12A0 /* CYProductDetailViewController.swift in Sources */,
 				E7215CC81E03DBDE007E12A0 /* CYComment.swift in Sources */,
@@ -650,6 +654,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ENE4DHQ7N;
 				INFOPLIST_FILE = CYTangSwift3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cyrill.CYTangSwift3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -664,6 +669,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ENE4DHQ7N;
 				INFOPLIST_FILE = CYTangSwift3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cyrill.CYTangSwift3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";

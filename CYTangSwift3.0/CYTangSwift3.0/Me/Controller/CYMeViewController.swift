@@ -44,7 +44,10 @@ class CYMeViewController: CYBaseViewController {
     }
     
     func settingButtonClick() {
-        
+        let settingVC = CYSettingViewController()
+        settingVC.title = "更多"
+        navigationController?.setNavigationBarHidden(false, animated: false)
+        navigationController?.pushViewController(settingVC, animated: true)
     }
     
     // MARK: - 头部按钮点击

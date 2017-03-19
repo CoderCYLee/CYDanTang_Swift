@@ -90,7 +90,7 @@ class CYMeHeaderView: UIView {
     /// 懒加载，创建昵称标签
     private lazy var nameLabel: UILabel = {
         let nameLabel = UILabel()
-        nameLabel.text = "hrscy"
+        nameLabel.text = "cyrill"
         nameLabel.textColor = UIColor.white
         nameLabel.font = UIFont.systemFont(ofSize: 15.0)
         nameLabel.textAlignment = .center
