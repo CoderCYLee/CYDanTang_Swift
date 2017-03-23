@@ -40,7 +40,10 @@ class CYMeViewController: CYBaseViewController {
     }()
     
     func messageButtonClick() {
-        
+        let messageVC = CYMessageViewController()
+        messageVC.title = "消息"
+        navigationController?.setNavigationBarHidden(false, animated: false)
+        navigationController?.pushViewController(messageVC, animated: true)
     }
     
     func settingButtonClick() {

@@ -44,6 +44,11 @@
 		E7215CD71E03DBDE007E12A0 /* CYProductDetailTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7215CB61E03DBDE007E12A0 /* CYProductDetailTopView.swift */; };
 		E7215CD81E03DBDE007E12A0 /* CYShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7215CB71E03DBDE007E12A0 /* CYShareButtonView.swift */; };
 		E7215CDA1E03DC9F007E12A0 /* CYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */; };
+		E793BAE41E837301001FBE2A /* CYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793BAE21E837301001FBE2A /* CYLoginViewController.swift */; };
+		E793BAE51E837301001FBE2A /* CYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E793BAE31E837301001FBE2A /* CYLoginViewController.xib */; };
+		E793BAE81E837322001FBE2A /* CYRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793BAE61E837322001FBE2A /* CYRegisterViewController.swift */; };
+		E793BAE91E837322001FBE2A /* CYRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E793BAE71E837322001FBE2A /* CYRegisterViewController.xib */; };
+		E793BAEB1E83735E001FBE2A /* CYMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793BAEA1E83735E001FBE2A /* CYMessageViewController.swift */; };
 		E79AF6901E0BBD7C00DA13BE /* CYSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79AF68F1E0BBD7C00DA13BE /* CYSettingViewController.swift */; };
 		E7C4C7361E0BB5D200ECBFFB /* CYMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C7351E0BB5D200ECBFFB /* CYMeFooterView.swift */; };
 		E7C4C7381E0BB5DD00ECBFFB /* CYMeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C4C7371E0BB5DD00ECBFFB /* CYMeHeaderView.swift */; };
@@ -92,6 +97,11 @@
 		E7215CB61E03DBDE007E12A0 /* CYProductDetailTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYProductDetailTopView.swift; sourceTree = "<group>"; };
 		E7215CB71E03DBDE007E12A0 /* CYShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYShareButtonView.swift; sourceTree = "<group>"; };
 		E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeViewController.swift; sourceTree = "<group>"; };
+		E793BAE21E837301001FBE2A /* CYLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYLoginViewController.swift; sourceTree = "<group>"; };
+		E793BAE31E837301001FBE2A /* CYLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYLoginViewController.xib; sourceTree = "<group>"; };
+		E793BAE61E837322001FBE2A /* CYRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYRegisterViewController.swift; sourceTree = "<group>"; };
+		E793BAE71E837322001FBE2A /* CYRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYRegisterViewController.xib; sourceTree = "<group>"; };
+		E793BAEA1E83735E001FBE2A /* CYMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMessageViewController.swift; sourceTree = "<group>"; };
 		E79AF68F1E0BBD7C00DA13BE /* CYSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSettingViewController.swift; sourceTree = "<group>"; };
 		E7C4C7351E0BB5D200ECBFFB /* CYMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeFooterView.swift; sourceTree = "<group>"; };
 		E7C4C7371E0BB5DD00ECBFFB /* CYMeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYMeHeaderView.swift; sourceTree = "<group>"; };
@@ -151,6 +161,7 @@
 				E7215C9E1E03DBDE007E12A0 /* Other */,
 				E7215C8A1E03DBDE007E12A0 /* Main */,
 				E7215C9C1E03DBDE007E12A0 /* Newfeature */,
+				E793BADE1E8372CF001FBE2A /* Login */,
 				E7215C851E03DBDE007E12A0 /* Home */,
 				E7215CA11E03DBDE007E12A0 /* Product */,
 				E7215C801E03DBDE007E12A0 /* Category */,
@@ -289,6 +300,7 @@
 			children = (
 				E7215CD91E03DC9F007E12A0 /* CYMeViewController.swift */,
 				E79AF68F1E0BBD7C00DA13BE /* CYSettingViewController.swift */,
+				E793BAEA1E83735E001FBE2A /* CYMessageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,6 +389,41 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E793BADE1E8372CF001FBE2A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E793BADF1E8372CF001FBE2A /* Controller */,
+				E793BAE01E8372CF001FBE2A /* Model */,
+				E793BAE11E8372CF001FBE2A /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E793BADF1E8372CF001FBE2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E793BAE21E837301001FBE2A /* CYLoginViewController.swift */,
+				E793BAE31E837301001FBE2A /* CYLoginViewController.xib */,
+				E793BAE61E837322001FBE2A /* CYRegisterViewController.swift */,
+				E793BAE71E837322001FBE2A /* CYRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E793BAE01E8372CF001FBE2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E793BAE11E8372CF001FBE2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -444,9 +491,11 @@
 				E7215CD01E03DBDE007E12A0 /* CYProductCollectionViewCell.xib in Resources */,
 				E7215CD31E03DBDE007E12A0 /* CYProductDetailCollectionViewCell.xib in Resources */,
 				E7177A1C1DFEA82900437509 /* LaunchScreen.storyboard in Resources */,
+				E793BAE91E837322001FBE2A /* CYRegisterViewController.xib in Resources */,
 				E7215CCC1E03DBDE007E12A0 /* CYCommentTableViewCell.xib in Resources */,
 				E7177A191DFEA82900437509 /* Assets.xcassets in Resources */,
 				E7215CCE1E03DBDE007E12A0 /* CYDetailChoiceButtonView.xib in Resources */,
+				E793BAE51E837301001FBE2A /* CYLoginViewController.xib in Resources */,
 				E7215CD61E03DBDE007E12A0 /* CYProductDetailToolbar.xib in Resources */,
 				E7215CC51E03DBDE007E12A0 /* SettingCell.plist in Resources */,
 			);
@@ -509,12 +558,14 @@
 			files = (
 				E7215CBE1E03DBDE007E12A0 /* CYNavigationViewController.swift in Sources */,
 				E7215CC91E03DBDE007E12A0 /* CYProduct.swift in Sources */,
+				E793BAEB1E83735E001FBE2A /* CYMessageViewController.swift in Sources */,
 				E7215CCD1E03DBDE007E12A0 /* CYDetailChoiceButtonView.swift in Sources */,
 				E7215CCB1E03DBDE007E12A0 /* CYCommentTableViewCell.swift in Sources */,
 				E7C4C73E1E0BB88300ECBFFB /* CYSetting.swift in Sources */,
 				E7215CD11E03DBDE007E12A0 /* CYProductDetailBottomView.swift in Sources */,
 				E7215CB91E03DBDE007E12A0 /* CYHomePageViewController.swift in Sources */,
 				E7215CC21E03DBDE007E12A0 /* CYVerticalButton.swift in Sources */,
+				E793BAE41E837301001FBE2A /* CYLoginViewController.swift in Sources */,
 				E7215CBA1E03DBDE007E12A0 /* String+Extension.swift in Sources */,
 				E7215CC71E03DBDE007E12A0 /* CYProductViewController.swift in Sources */,
 				E7215CCF1E03DBDE007E12A0 /* CYProductCollectionViewCell.swift in Sources */,
@@ -529,6 +580,7 @@
 				E7215CC61E03DBDE007E12A0 /* CYProductDetailViewController.swift in Sources */,
 				E7215CC81E03DBDE007E12A0 /* CYComment.swift in Sources */,
 				E7215CC11E03DBDE007E12A0 /* CYNetworkTool.swift in Sources */,
+				E793BAE81E837322001FBE2A /* CYRegisterViewController.swift in Sources */,
 				E7215CD51E03DBDE007E12A0 /* CYProductDetailToolbar.swift in Sources */,
 				E7215CD21E03DBDE007E12A0 /* CYProductDetailCollectionViewCell.swift in Sources */,
 				E7215CC41E03DBDE007E12A0 /* AppDelegate.swift in Sources */,
