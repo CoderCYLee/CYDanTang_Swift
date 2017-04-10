@@ -15,9 +15,29 @@ class CYSettingViewController: CYBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        configCellFromPlist()
+        setupTableView()
+    }
+    
+    private func configCellFromPlist() {
+        let path = Bundle.main.path(forResource: "SettingCell", ofType: ".plist")
+        let settingsPlist = NSArray.init(contentsOfFile: path!)
+        for arrayDict in settingsPlist! {
+            let array = arrayDict as! NSArray
+            var sections = [AnyObject]()
+            for dict in array {
+                let setting = CYSetting(dict: dict as! [String: AnyObject])
+                sections.append(setting)
+            }
+            settings.append(sections as AnyObject);
+        }
     }
 
+    private func setupTableView() {
+
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -16,7 +16,6 @@ class CYProductViewController: CYBaseViewController {
     var products = [CYProduct]()
     var collectionView: UICollectionView?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,13 +25,13 @@ class CYProductViewController: CYBaseViewController {
         setupCollectionView()
         
         let refreshControl = UIRefreshControl()
-//        refreshControl.tintColor = UIColor.gray
-//        refreshControl.attributedTitle = NSAttributedString.init(string: "下拉刷新")
+        refreshControl.tintColor = UIColor.gray
+        refreshControl.attributedTitle = NSAttributedString.init(string: "下拉刷新")
         refreshControl.addTarget(self, action: #selector(loadData), for: .valueChanged)
         self.collectionView?.refreshControl = refreshControl
         
         self.collectionView?.refreshControl?.beginRefreshing()
-        CYNetworkTool.shareNetworkTool.loadProductData { [weak self](products) in
+        CYNetworkTool.shareNetworkTool.loadProductData(page: 0) { [weak self](products) in
             self!.collectionView?.refreshControl?.endRefreshing()
             self!.products = products
             self!.collectionView!.reloadData()
@@ -45,14 +44,8 @@ class CYProductViewController: CYBaseViewController {
     }
     
     @objc func loadData() {
-        
-        // 延时不知道为啥不好使
-//        let time: TimeInterval = 10.0
-//        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + time) {
-//            
-//        }
-        
-        CYNetworkTool.shareNetworkTool.loadProductData { [weak self](products) in
+                
+        CYNetworkTool.shareNetworkTool.loadProductData(page: 0) { [weak self](products) in
             self!.collectionView?.refreshControl?.endRefreshing()
             self!.products = products
             self!.collectionView!.reloadData()
