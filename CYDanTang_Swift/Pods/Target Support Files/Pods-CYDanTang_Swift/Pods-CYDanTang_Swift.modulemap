@@ -1,0 +1,6 @@
+framework module Pods_CYDanTang_Swift {
+  umbrella header "Pods-CYDanTang_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

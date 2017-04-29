@@ -1,0 +1,12 @@
+platform :ios, "8.0"
+use_frameworks!
+
+target "CYDanTang_Swift" do
+
+pod "SnapKit"
+pod "Alamofire"
+pod "SwiftyJSON"
+pod "Kingfisher"
+pod "FitRefresh"
+
+end
