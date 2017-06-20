@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class CYNetworkTool: NSObject {
     
-    
+
     /// 单例
     static let shareNetworkTool = CYNetworkTool()
     
